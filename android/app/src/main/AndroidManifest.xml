@@ -32,6 +32,7 @@
             </intent-filter>
         </activity>
 
+        <!-- السطر المسؤول عن تفعيل نظام V2 ومنع الخطأ نهائياً -->
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
