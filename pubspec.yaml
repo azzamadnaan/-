@@ -1,5 +1,5 @@
 name: quran_app
-description: "تطبيق القرآن الكريم مع استماع وتنزيل أوفلاين وإعلانات"
+description: "تطبيق القرآن الكريم والأشعار"
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -12,16 +12,12 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
-  # تشغيل الصوتيات
-  just_audio: ^0.9.36
-  # التحميل وحفظ الملفات
-  dio: ^5.4.0
-  path_provider: ^2.1.2
+  just_audio: ^0.9.42
+  dio: ^5.11.1
+  path_provider: ^2.1.4
   permission_handler: ^11.3.1
-  # إعلانات جوجل AdMob
-  google_mobile_ads: ^5.0.0
-  # أجهزة العرض والتنسيق
-  cupertino_icons: ^1.0.6
+  google_mobile_ads: ^5.2.0
+  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
@@ -30,4 +26,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  
